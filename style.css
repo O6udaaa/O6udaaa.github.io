@@ -1,5 +1,13 @@
 .container {
     max-width: none !important;
-    background-image: url(https://vologda-okn.ru/assets/images/resources/235/cbcfc5c089689dc31b4487a2cec63f661e0f5335.jpg);
+    background-image: url('https://vologda-okn.ru/assets/images/resources/235/cbcfc5c089689dc31b4487a2cec63f661e0f5335.jpg');
     background-position: center 0;
+}
+body{
+  background-image:url('https://vologda-okn.ru/assets/images/resources/235/cbcfc5c089689dc31b4487a2cec63f661e0f5335.jpg');
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  line-height:20px; font-size:14px;
+  font-family:"Trebuchet MS";
+  margin:0
 }
