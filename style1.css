@@ -57,7 +57,7 @@ h3 {
 
 /* ===== MAIN CONTAINER ===== */
 .container {
-  position: relative;
+  position: cover;
   z-index: 0;
   min-height: 100vh;
   min-width: 100vw;
