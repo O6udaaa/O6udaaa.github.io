@@ -66,12 +66,12 @@ h3 {
 .container::before,
 .container::after {
   content: '';
-  position: absolute;
+  position: cover;
   inset: 0;
   z-index: -1;
   background-repeat: repeat;
-  background-size: contain;
-  background-position: 40 center;
+  background-size: cover;
+  background-position: cover;
   transition: clip-path 2s cubic-bezier(1, 0, 0, 1);
   pointer-events: none;
 }
